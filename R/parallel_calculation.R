@@ -6,7 +6,9 @@
 parallel.lasso.computation = function(final_data, max_companies, new_days = 5, parallel_cpu = 4, p = 0.05, winsize = 60, work_dir,
 									  plotDataCheck = TRUE, saveCSV = FALSE) {
 
-	data_in = final_data[,-1]
+  requireNamespace("snow")
+
+  data_in = final_data[,-1]
 	data    = as.matrix(data_in)
 
 	# 3 Plots will be generated for a quick visual check of data consistency
