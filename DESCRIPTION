@@ -13,12 +13,6 @@ Description: Provides data processing and parallelized quantile lasso regression
     The package serves exclusively the purpose of non-profit-making and scientific analysis.
 License: MIT + file LICENSE
 Imports:
-    SparseM,
-    quantreg,
-    KernSmooth,
-    foreign,
-    MASS,
-    lattice,
     stats,
     snow,
     snowfall,
