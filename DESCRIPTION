@@ -1,0 +1,27 @@
+Package: RiskAnalytics
+Type: Package
+Title: Real time processing of Nasdaq and Yahoo finance data and
+    parallelized quantile lasso regression methods
+Version: 0.1.0
+Date: 2017-01-25
+Authors@R: person("Lukas", "Borke", email = "lukas@borke.net", role = c("aut", "cre"))
+Maintainer: Lukas Borke <lukas@borke.net>
+Description: Provides data processing and parallelized quantile lasso regression methods for risk
+    analysis based on Nasdaq data, Yahoo finance data and some macro variables.
+    The derived Risk Analytics can help to forecast and evaluate the systemic risk for the
+    corresponding markets. All results and methods are used at the own risk.
+    The package serves exclusively the purpose of non-profit-making and scientific analysis.
+License: MIT + file LICENSE
+Imports:
+    SparseM,
+    quantreg,
+    KernSmooth,
+    foreign,
+    MASS,
+    lattice,
+    stats,
+    snowfall,
+    quantmod,
+    RCurl
+LazyData: TRUE
+Author: Lukas Borke [aut, cre]

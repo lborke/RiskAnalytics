@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("grDevices", "dev.new")
+importFrom("graphics", "boxplot", "hist", "legend", "matplot", "par", "plot")
+importFrom("utils", "read.csv", "write.csv")
+import(SparseM, quantreg, KernSmooth, foreign, MASS, lattice, stats, snowfall, quantmod, RCurl)
